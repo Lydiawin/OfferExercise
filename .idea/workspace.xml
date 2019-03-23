@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="213e2c1f-6838-4b02-aa23-6ed5ff5a2b14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/offer/src/main/java/T16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer/src/main/java/T17.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/offer/target/" />
@@ -14,36 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/offer/src/main/java/T5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/offer/src/main/java/T6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/offer/src/main/java/T7.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/offer/src/main/java/T8.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,14 +68,45 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/offer/src/main/java/T14.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/offer/src/main/java/T17.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/offer/src/main/java/T16.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            <state relative-caret-position="250">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="9" />
               <folding>
                 <element signature="e#244#245#0" expanded="true" />
                 <element signature="e#282#283#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/offer/src/main/java/T15.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,6 +138,9 @@
         <option value="$PROJECT_DIR$/offer/src/main/java/T9_4.java" />
         <option value="$PROJECT_DIR$/offer/src/main/java/T10.java" />
         <option value="$PROJECT_DIR$/offer/src/main/java/T16.java" />
+        <option value="$PROJECT_DIR$/offer/src/main/java/T15.java" />
+        <option value="$PROJECT_DIR$/offer/src/main/java/T12.java" />
+        <option value="$PROJECT_DIR$/offer/src/main/java/T14.java" />
       </list>
     </option>
   </component>
@@ -194,7 +198,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553313893529" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553330076729" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -241,18 +245,18 @@
       <updated>1553073476060</updated>
       <workItem from="1553073477528" duration="3535000" />
       <workItem from="1553139676523" duration="790000" />
-      <workItem from="1553313420085" duration="253000" />
+      <workItem from="1553313420085" duration="2348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4578000" />
+    <option name="totallyTimeSpent" value="6673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15013404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15013404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -269,7 +273,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.80737704" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.80697054" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32996207" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -367,6 +371,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/offer/src/main/java/T16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/offer/src/main/java/T15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/offer/src/main/java/T10.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -374,14 +400,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/offer/src/main/java/T16.java">
+    <entry file="file://$PROJECT_DIR$/offer/src/main/java/T14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="825">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/offer/src/main/java/T17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
