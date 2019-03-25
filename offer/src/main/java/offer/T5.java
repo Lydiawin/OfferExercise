@@ -1,7 +1,9 @@
+package offer;
+
 import java.util.ArrayList;
 import java.util.Stack;
 /*
-*  T5: 从尾到头打印链表
+*  offer.T5: 从尾到头打印链表
 *  题目：
 *  输入一个链表的头结点，从尾到头反过来打印出每个结点的值。
 *  输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。（牛客）

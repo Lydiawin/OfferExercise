@@ -1,3 +1,4 @@
+package offer;
 
 /*
 * 变态跳台阶
