@@ -1,3 +1,4 @@
+package offer;
 
 /*
 * 矩形覆盖

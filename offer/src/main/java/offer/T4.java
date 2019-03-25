@@ -1,3 +1,5 @@
+package offer;
+
 public class T4 {
     /*
     * 题目描述
