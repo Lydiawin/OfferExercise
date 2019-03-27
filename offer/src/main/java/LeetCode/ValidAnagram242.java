@@ -19,6 +19,11 @@ import java.util.Arrays;
 进阶:
 如果输入字符串包含 unicode 字符怎么办？你能否调整你的解法来应对这种情况？
 * */
+
+
+/*
+* 若输入的字符包含unicode字符，可以使用哈希表来实现计数存储的效果
+* */
 public class ValidAnagram242 {
     /*
     * 将字符串转换成数组，进行排序，若排序后的两个字符数组不同，则说明false，否则为true
