@@ -1,10 +1,11 @@
 package offer;
-
-import java.util.Stack;
-
 /*
-* T18 二叉树的镜像
-* 操作给定的二叉树，将其变换为源二叉树的镜像。
+* T18 树的子结构
+* 输入两棵二叉树A，B，判断B是不是A的子结构。（ps：我们约定空树不是任意一个树的子结构）
+*
+* 1. 判断输入结点是否为null
+* 2. 找到和root2根节点的值相同的结点
+* 3. 判断相同根节点的左右子树是否相同
 * */
 public class T18 {
     public class TreeNode {
@@ -15,48 +16,34 @@ public class T18 {
             this.val = val;
         }
     }
-    public class Solution {
-        public void Mirror(TreeNode root) {
-            if (root == null) return;
-            if (root.left == null && root.right == null) return;
-            TreeNode node = root.left;
-            root.left = root.right;
-            root.right = node;
-            if (root.left != null) {
-                Mirror(root.left);
+    public  class Solution {
+        public boolean HasSubtree(TreeNode root1, TreeNode root2) {
+            boolean result = false;
+            if (root1 == null || root2 == null)
+                return result;
+            if (root1 != null && root2 != null) {
+                if (root1.val == root2.val) {
+                    result = Tree1HasTree2(root1, root2);
+                }
+                if (!result) {
+                    result = Tree1HasTree2(root1.left, root2);
+                }
+                if (!result) {
+                    result = Tree1HasTree2(root1.right, root2);
+                }
             }
-            if (root.right != null) {
-                Mirror(root.right);
-            }
+            return result;
         }
-    }
-    /*==========================非递归方式：栈===============================*/
-    /*
-    * 递归=======栈
-    * */
-    public class Solution2 {
-        public void Mirror2(TreeNode root) {
-            if (root == null || (root.left == null && root.right == null))
-                return;
-            Stack<TreeNode> stack = new Stack<TreeNode>();
-            stack.push(root);
-            while (!stack.isEmpty()) {
-                TreeNode node = stack.pop();
-                if (node.left != null || node.right != null) {
-                    swap(node);
-                }
-                if (node.left != null) {
-                    stack.push(node.left);
-                }
-                if (node.right != null) {
-                    stack.push(node.right);
-                }
+        public boolean Tree1HasTree2(TreeNode root1, TreeNode root2) {
+            if (root2 == null) {
+                return true;
             }
-        }
-        public void swap(TreeNode node) {
-            TreeNode temp = node.left;
-            node.left = node.right;
-            node.right = temp;
+            if (root1 == null) {
+                return false;
+            }
+            if (root1.val != root2.val)
+                return false;
+            return Tree1HasTree2(root1.left, root2.left) && Tree1HasTree2(root1.right, root2.right);
         }
     }
 }
